@@ -1,14 +1,14 @@
 require('dotenv').config()
-
 // require express
 const express = require('express');
-
 // initialize app variable
 const app = express();
 
+app.use('/places', require('./controllers/places'))
+
 // Home Page route
 app.get('/', (req, res) => {
-  res.send('Home Page')
+  res.send('Hello World!')
 });
 
 // wildcard route
