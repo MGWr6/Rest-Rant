@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 // require express
 const express = require('express');
 
@@ -9,4 +11,10 @@ app.get('/', (req, res) => {
   res.send('Home Page')
 });
 
-app.listen(3000);
+// wildcard route
+app.get('*', (req, res) => {
+  res.status(404).send('<h1>404 Page</h1>')
+});
+
+
+app.listen(process.env.PORT);
