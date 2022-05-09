@@ -17,5 +17,4 @@ function Def (html) {
 }
 
 // 3. export 'Def' function
-module.exports - Def
-
+module.exports = Def

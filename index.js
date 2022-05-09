@@ -4,6 +4,9 @@ const express = require('express');
 // initialize app variable
 const app = express();
 
+app.set('view engine', 'jsx')
+app.engine('jsx', require('express-react-views').createEngine())
+
 app.use('/places', require('./controllers/places'))
 
 // Home Page route
@@ -13,7 +16,7 @@ app.get('/', (req, res) => {
 
 // wildcard route
 app.get('*', (req, res) => {
-  res.status(404).send('<h1>404 Page</h1>')
+  res.send('404 page')
 });
 
 
