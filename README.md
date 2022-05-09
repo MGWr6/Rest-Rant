@@ -6,8 +6,6 @@
 ##### TBD
 #### Wireframes
 ##### TBD
-
-
 ## Routes
 
 | Method | Path                       | Purpose                                          |
