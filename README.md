@@ -1,11 +1,12 @@
 # Project REST-Rant
 #### REST-Rant is an app where users can review restaurants.
-## Planning
 
+## Planning
 #### User Stories
 ##### TBD
 #### Wireframes
 ##### TBD
+
 ## Routes
 
 | Method | Path                       | Purpose                                          |
