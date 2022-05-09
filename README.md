@@ -2,9 +2,9 @@
 #### REST-Rant is an app where users can review restaurants.
 ## Planning
 
-### User Stories
+#### User Stories
 ##### TBD
-### Wireframes
+#### Wireframes
 ##### TBD
 
 
