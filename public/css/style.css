@@ -3,12 +3,9 @@ h1 {
   color: cornflowerblue;
 }
 
-p {
-  text-align: center;
-  color: cornflowerblue;
-}
+
 
 img {
-  width: 30em;
-  height: 45em;
+  width:540px;
+  height: auto;
 }
