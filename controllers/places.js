@@ -18,6 +18,13 @@ router.get('/', (req, res) => {
   res.render('places/index', { places })
 })
 
+
+// Creat Route 
+router.post("/", (req, res) => {
+  res.send("POST /places")
+})
+
+// route for "New" view
 router.get('/new', (req, res) => {
   res.render('places/new')
 })
