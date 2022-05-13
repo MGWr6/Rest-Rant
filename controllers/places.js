@@ -21,6 +21,7 @@ router.get('/', (req, res) => {
 
 // Creat Route 
 router.post("/", (req, res) => {
+  console.log(req.body)
   res.send("POST /places")
 })
 
