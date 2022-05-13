@@ -5,7 +5,7 @@ const express = require('express');
 // initialize app variable
 const app = express();
 
-// Express Settings
+// Express Settings / Middleware
 // app.set('views', _dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
