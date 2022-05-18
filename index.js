@@ -8,7 +8,7 @@ const methodOverride = require('method-override')
 const app = express()
 
 // Express Settings / Middleware
-// app.set('views', _dirname + '/views')
+//app.set('views', _dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
 app.use(express.static('public'))
